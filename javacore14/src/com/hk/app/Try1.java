@@ -12,7 +12,7 @@ public class Try1 {
 		// 이런경우 오류를 처리할 수 있도록 해주는 코드 => 예외처리 코드
 		try {
 			System.out.println("2번 코드 수행중입니다!");
-			int result = a / b;
+			int result = a / b;	// 에러가 발생
 			System.out.println("결과는:"+result);
 			System.out.println("3번 코드 수행중입니다!");
 		}catch(Exception e) {
